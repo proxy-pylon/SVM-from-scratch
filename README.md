@@ -7,6 +7,10 @@ This project was created to deepen my understanding of the mathematical foundati
 The model is evaluated on the classic Iris dataset, which consists of three classes of iris flowers, providing an intuitive test for multiclass classification.
 ## Results
 The model successfully classifies all three classes in the Iris dataset with high accuracy. Visualization of decision boundaries demonstrates the effectiveness of the custom SVM implementation.
+
+![Iris Dataset Results](results_iris.png)
+![MNIST Dataset Results](results_mnist.png)
+
 ## Implementation
 The project implements a Soft-Margin Kernel SVM with the following features:
 * **`Kernel Options:`** The user can choose between a linear or Gaussian (RBF) kernel.
